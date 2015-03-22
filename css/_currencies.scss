@@ -18,6 +18,7 @@ $currency-codes:
   "ppc",
   "rdd",
   "sj1",
+  "slr",
   "trc",
   "via",
   "vrc",
@@ -46,6 +47,7 @@ $currency-codes:
   @if $code == "ppc" { background-image: url('../images/currencies/peercoin.png'); }
   @if $code == "rdd" { background-image: url('../images/currencies/reddcoin.png'); }
   @if $code == "sj1" { background-image: url('../images/currencies/storjcoin.png'); }
+  @if $code == "slr" { background-image: url('../images/currencies/solarcoin.png'); }
   @if $code == "trc" { background-image: url('../images/currencies/terracoin.png'); }
   @if $code == "via" { background-image: url('../images/currencies/viacoin.png'); }
   @if $code == "vrc" { background-image: url('../images/currencies/vericoin.png'); }
@@ -75,6 +77,7 @@ $currency-codes:
   @if $code == "ppc" { background-image: url('../images/explorers/blockr.png'); }
   @if $code == "rdd" { background-image: url('../images/explorers/reddsight.png'); }
   @if $code == "sj1" { background-image: url('../images/explorers/blockscan.png'); }
+  @if $code == "slr" { background-image: url('../images/explorers/chainz.png'); }
   @if $code == "trc" { background-image: url('../images/explorers/coinplorer.png'); }
   @if $code == "via" { background-image: url('../images/explorers/viacoin.png'); }
   @if $code == "vrc" { background-image: url('../images/explorers/chainz.png'); }
